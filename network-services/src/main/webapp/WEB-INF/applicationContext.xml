@@ -1,0 +1,25 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans.xsd
+			http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd">
+
+	<import resource="classpath:META-INF/networkResource-context.xml"/>
+
+	<bean id="jsonProvider" class="org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider"/>
+
+	<jaxrs:server id="projectRest" address="/service"
+			beanNames="networkResource">
+		<jaxrs:providers>
+			<ref bean="jsonProvider"/>
+		</jaxrs:providers>
+		<jaxrs:extensionMappings>
+			<entry key="json" value="application/json;charset=UTF-8"/>
+			<entry key="xml" value="application/xml"/>
+		</jaxrs:extensionMappings>
+	</jaxrs:server>
+
+</beans>
+
+

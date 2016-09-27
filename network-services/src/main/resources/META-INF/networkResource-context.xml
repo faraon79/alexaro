@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="networkService" class="click.tomasz.services.NetworkServiceImpl">
+	</bean>
+
+	<bean id="networkResource" class="click.tomasz.resources.NetworkResource">
+		<property name="networkService" ref="networkService"/>
+	</bean>
+
+</beans>

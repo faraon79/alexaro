@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/a5291b3c-759f-485c-aeb3-d69466004cef/console.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/a5291b3c-759f-485c-aeb3-d69466004cef/console_1.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/a5291b3c-759f-485c-aeb3-d69466004cef/console_2.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ann-rest-services/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ann-rest-services/src/main/java/click/tomasz/resources/AnnService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ann-rest-services/src/main/java/click/tomasz/resources/NetworkResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ann-rest-services/src/main/java/click/tomasz/services/AnnService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ann-rest-services/src/main/java/click/tomasz/services/NetworkService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ann-rest-services/src/main/resources/META-INF/base-context.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ann-rest-services/src/main/webapp/WEB-INF/applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/net-rest-services/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-base/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/persistence/NetworkDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/persistence/NetworkHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/persistence/PersistenceHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/persistence/common/DaoFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/persistence/common/EntityManagerFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/persistence/dao/Dao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/persistence/dao/NetworkDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/persistence/dao/NetworkHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/persistence/entity/Network.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/resources/NetworkResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/resources/transfer/CreateNetwork.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/resources/transfer/CreateNetworkResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/resources/transfer/ExecutionResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/resources/transfer/IdResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/resources/transfer/LearnData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/resources/transfer/LearnResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/resources/transfer/Network.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/resources/transfer/NetworkDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/resources/transfer/TransferModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/services/NetworkService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/services/NetworkServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/java/click/tomasz/validation/ValidationUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/resources/META-INF/networkResource-context.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/resources/META-INF/persistence-context.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/resources/META-INF/persistence.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/webapp/WEB-INF/applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/network-services/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/samples/ann-rest/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/samples/client/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sql/postgre/alexaro.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/project/sources/EngageOne/EngageOneREST/eo-rest-services/src/main/java/com/pb/engageone/rest/impl/TaskServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/project/sources/viewpoint/modules/workflow-services/src/main/java/com/pb/viewpoint/resource/WorkflowResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="dbtable:/e5edd0ba/a5291b3c-759f-485c-aeb3-d69466004cef/alexaro.public.Network">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="js/myApp.js"></script>
+<script src="js/myCtrl.js"></script>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+<body>
+
+<!-- ANGULAR -->
+
+<div ng-app="myApp" ng-controller="myCtrl">
+
+    <div class="flex-footer">
+        <h1 class="flex-clear" ng-click="cleanUp()">Let's play</h1>
+    </div>
+    <br><br>
+
+    <div class="flex-container">
+        <table class="flex-table">
+            <tr class="flex-row-top">
+                <td class="flex-td-left">
+                    <div ng-click="itemClick($event)" id="0" class="flex-item"><img class="flex-img"
+                                                                                    ng-src="{{path[0]}}"
+                                                                                    ng-show="isVisible[0]"/></div>
+                </td>
+                <td class="flex-td-center">
+                    <div ng-click="itemClick($event)" id="1" class="flex-item"><img class="flex-img"
+                                                                                    ng-src="{{path[1]}}"
+                                                                                    ng-show="isVisible[1]"/></div>
+                </td>
+                <td class="flex-td-right">
+                    <div ng-click="itemClick($event)" id="2" class="flex-item"><img class="flex-img"
+                                                                                    ng-src="{{path[2]}}"
+                                                                                    ng-show="isVisible[2]"/></div>
+                </td>
+            </tr>
+            <tr class="flex-row-center">
+                <td class="flex-td-left">
+                    <div ng-click="itemClick($event)" id="3" class="flex-item"><img class="flex-img"
+                                                                                    ng-src="{{path[3]}}"
+                                                                                    ng-show="isVisible[3]"/></div>
+                </td>
+                <td class="flex-td-center">
+                    <div ng-click="itemClick($event)" id="4" class="flex-item"><img class="flex-img"
+                                                                                    ng-src="{{path[4]}}"
+                                                                                    ng-show="isVisible[4]"/></div>
+                </td>
+                <td class="flex-td-right">
+                    <div ng-click="itemClick($event)" id="5" class="flex-item"><img class="flex-img"
+                                                                                    ng-src="{{path[5]}}"
+                                                                                    ng-show="isVisible[5]"/></div>
+                </td>
+            </tr>
+            <tr class="flex-row-bottom">
+                <td class="flex-td-left">
+                    <div ng-click="itemClick($event)" id="6" class="flex-item"><img class="flex-img"
+                                                                                    ng-src="{{path[6]}}"
+                                                                                    ng-show="isVisible[6]"/></div>
+                </td>
+                <td class="flex-td-center">
+                    <div ng-click="itemClick($event)" id="7" class="flex-item"><img class="flex-img"
+                                                                                    ng-src="{{path[7]}}"
+                                                                                    ng-show="isVisible[7]"/></div>
+                </td>
+                <td class="flex-td-right">
+                    <div ng-click="itemClick($event)" id="8" class="flex-item"><img class="flex-img"
+                                                                                    ng-src="{{path[8]}}"
+                                                                                    ng-show="isVisible[8]"/></div>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <br>
+    <br>
+    <div class="flex-footer">
+        <h1 class="flex-clear" ng-click="cleanUp()">Click to clear</h1>
+    </div>
+    <div class="flex-footer">
+        <h3 class="flex-error">{{error}}</h3>
+        <h3 class="flex-tips">{{tips}}</h3>
+    </div>
+
+    <div class="main-footer">
+        <img src="pictures/angularjs.png" height="100" width="100">
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<import resource="classpath:META-INF/base-context.xml"/>
+
+	<bean id="ticTacToeNetworkParameters" class="click.tomasz.network.model.NetworkParameters">
+		<property name="inputSize" value="9"/>
+		<property name="resultSize" value="9"/>
+		<property name="innerLayersSize">
+			<util:list id="sizeList" value-type="java.lang.Integer">
+				<value>9</value>
+			</util:list>
+		</property>
+		<property name="activationFunction" ref="activationFunction"/>
+	</bean>
+
+	<bean id="ticTacToeNetwork" class="click.tomasz.network.model.NetworkImpl">
+		<constructor-arg index="0" ref="ticTacToeNetworkParameters"/>
+	</bean>
+
+	<bean id="ticTacToeService" class="click.tomasz.samples.resources.TicTacToeService" scope="prototype">
+		<property name="network" ref="ticTacToeNetwork"/>
+	</bean>
+
+</beans>
