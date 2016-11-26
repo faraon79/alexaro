@@ -90,7 +90,7 @@
     <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-entitymanager:5.0.1.Final" level="project" />
     <orderEntry type="library" name="Maven: postgresql:postgresql:9.0-801.jdbc4" level="project" />
-    <orderEntry type="library" name="Maven: click.tomasz:network:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="network-base" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.2" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.2" level="project" />
   </component>
