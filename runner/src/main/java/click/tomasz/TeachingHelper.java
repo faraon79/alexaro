@@ -1,4 +1,4 @@
-package click.tomasz.network;
+package click.tomasz;
 
 import java.io.IOException;
 

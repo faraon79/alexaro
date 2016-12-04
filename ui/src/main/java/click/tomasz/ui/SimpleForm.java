@@ -13,7 +13,7 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.util.Map;
 
-import click.tomasz.network.TeachingHelper;
+import click.tomasz.TeachingHelper;
 import click.tomasz.network.learning.LearnSet;
 import click.tomasz.network.learning.TeacherConfigurator;
 import click.tomasz.network.learning.cases.TicTacToe;

@@ -74,7 +74,7 @@
 
 		<dependency>
 			<groupId>click.tomasz</groupId>
-			<artifactId>network</artifactId>
+			<artifactId>network-core</artifactId>
 			<version>${ann.version}</version>
 		</dependency>
 	</dependencies>

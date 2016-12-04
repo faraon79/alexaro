@@ -28,7 +28,7 @@
 		<dependencies>
 			<dependency>
 				<groupId>click.tomasz</groupId>
-				<artifactId>network</artifactId>
+				<artifactId>network-core</artifactId>
 				<version>${ann.version}</version>
 			</dependency>
 			<dependency>
@@ -38,19 +38,20 @@
 			</dependency>
 			<dependency>
 				<groupId>click.tomasz</groupId>
-				<artifactId>client</artifactId>
+				<artifactId>sample-client</artifactId>
 				<version>${ann.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
 	<modules>
-		<module>network-base</module>
+		<module>network-core</module>
 		<module>network-services</module>
+		<module>runner</module>
 		<module>ui</module>
 		<module>samples/ann-rest</module>
 		<module>samples/sample-client</module>
-	</modules>
+    </modules>
 
 	<build>
 		<plugins>

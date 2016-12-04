@@ -2,7 +2,7 @@ package click.tomasz;
 
 import java.io.IOException;
 
-import click.tomasz.network.TeachingHelper;
+import click.tomasz.TeachingHelper;
 import click.tomasz.network.learning.LearnSet;
 import click.tomasz.network.learning.cases.Letters;
 import click.tomasz.network.learning.cases.TicTacToe;
